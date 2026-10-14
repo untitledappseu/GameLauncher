@@ -1,10 +1,19 @@
 using System.Diagnostics;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 using Process = System.Diagnostics.Process;
 
 public class GameLauncher : MonoBehaviour
 {
+    void Start()
+    {
+        Transform wreck = transform.Find("WreckAndRunButton");
+        Transform marlon = transform.Find("MarlonsGameButton");
+        wreck.GetComponent<Button>().onClick.AddListener(LaunchWreckAndRun);
+        marlon.GetComponent<Button>().onClick.AddListener(LaunchMarlonsGame);
+    }
+
     public void LaunchWreckAndRun()
     {
         Launch("WreckAndRun");
