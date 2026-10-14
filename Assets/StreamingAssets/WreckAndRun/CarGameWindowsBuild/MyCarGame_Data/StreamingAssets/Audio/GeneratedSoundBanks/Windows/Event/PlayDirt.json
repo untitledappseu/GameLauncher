@@ -1,0 +1,100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "744191688",
+    "Type": "Event",
+    "GUID": "{07AB870A-002A-46C4-85A1-9485CCDF6D19}",
+    "Language": "SFX",
+    "Hash": "{E5CB26D0-5B4C-5A23-8AEB-68C7CCD9359E}",
+    "ObjectPath": "PlayDirt",
+    "ShortName": "PlayDirt",
+    "Path": "Event/PlayDirt.bnk",
+    "Media": [
+     {
+      "Id": "73552072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gravel_sound.wav",
+      "Path": "Media/73552072.wem",
+      "CachePath": "33/{33FD7F95-D39A-81A7-EE65-CAB6DE7D7B7F}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "693074504",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Car\\New Actor-Mixer\\Tires\\Dirt\\New Tone Generator\\Tone Generator",
+       "GUID": "{05E42C56-6889-4067-88E1-8E3E3C107891}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1724990773",
+       "Name": "New_Time_Stretch",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Time_Stretch",
+       "GUID": "{B6503AE1-F8F4-4AC6-9467-DBC4876FC536}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "3025917178",
+       "Name": "Standard",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Flanging\\Standard",
+       "GUID": "{1A2EAB31-6283-4C0D-89B2-F050DF89D421}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "744191688",
+      "Name": "PlayDirt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\PlayDirt",
+      "GUID": "{07AB870A-002A-46C4-85A1-9485CCDF6D19}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "73552072"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "693074504"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "1724990773"
+        },
+        {
+         "Id": "3025917178"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4043708949",
+      "Name": "OnDirt",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\OnDirt",
+      "GUID": "{09D3B12D-A9D4-4A83-B060-260CA3C9248A}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{31F5D721-D888-AEC0-B52B-6499BB99C559}"
+ }
+}

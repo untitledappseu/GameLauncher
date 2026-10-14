@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1794647604",
+    "Type": "Event",
+    "GUID": "{BEB55864-F0C4-401F-A5E1-444478A67C33}",
+    "Language": "SFX",
+    "Hash": "{DB847E08-09FE-9817-9FD3-2991105D62FD}",
+    "ObjectPath": "PlayNormalBuzzer",
+    "ShortName": "PlayNormalBuzzer",
+    "Path": "Event/PlayNormalBuzzer.bnk",
+    "Media": [
+     {
+      "Id": "1058403975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Normal buzzer.wav",
+      "Path": "Media/1058403975.wem",
+      "CachePath": "51/{51BB4BAC-808A-E003-B104-28479ACBF706}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1794647604",
+      "Name": "PlayNormalBuzzer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\PlayNormalBuzzer",
+      "GUID": "{BEB55864-F0C4-401F-A5E1-444478A67C33}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5240362",
+      "DurationMax": "3.5240362",
+      "MediaRefs": [
+       {
+        "Id": "1058403975"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E09FBB3F-677A-7558-6B15-F352065B4987}"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2401066578",
+    "Type": "Event",
+    "GUID": "{D2320A24-B31E-4431-A400-DCECAF3AADF9}",
+    "Language": "SFX",
+    "Hash": "{B14086FD-D6EC-4BDE-95BD-C5148565D9F6}",
+    "ObjectPath": "StopDirt",
+    "ShortName": "StopDirt",
+    "Path": "Event/StopDirt.bnk",
+    "Events": [
+     {
+      "Id": "2401066578",
+      "Name": "StopDirt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\StopDirt",
+      "GUID": "{D2320A24-B31E-4431-A400-DCECAF3AADF9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{32B1F00B-664E-D7C6-9FC2-536661B0C292}"
+ }
+}

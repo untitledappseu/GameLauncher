@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "MyCarGame_WwiseProject",
+   "GUID": "{D518E07F-3081-469B-A26D-613A74678391}",
+   "Generator": "2024.1.7.8863"
+  },
+  "CacheRoot": "../../../../MyCarGame_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{BBB8652F-E029-4454-80D1-9C148568CE21}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Windows"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{544F932E-30E1-4613-B088-9E7B1E21A27E}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../MyCarGame_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{9B0B544D-8397-45D3-BFFB-691D9582A6FE}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{074CCC1A-0FAE-E4FE-3387-6E719D79407B}"
+ }
+}

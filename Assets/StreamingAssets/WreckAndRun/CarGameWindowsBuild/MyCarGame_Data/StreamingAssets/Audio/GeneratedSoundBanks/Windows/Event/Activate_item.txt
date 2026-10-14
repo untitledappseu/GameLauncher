@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1932880456	Activate_item			\Default Work Unit\Car\Activate_item	
+
+Effect plug-ins	ID	Name	Type				Notes
+	556305844	New_RoomVerb_01	Wwise RoomVerb			
+

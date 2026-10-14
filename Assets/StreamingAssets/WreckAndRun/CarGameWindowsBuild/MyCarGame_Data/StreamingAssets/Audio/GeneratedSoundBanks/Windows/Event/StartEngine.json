@@ -1,0 +1,106 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1087172201",
+    "Type": "Event",
+    "GUID": "{A2E0E4E5-EB97-441E-B179-C5BD34B80059}",
+    "Language": "SFX",
+    "Hash": "{7B1DB2D9-33B1-A4F5-4BE0-2C6AF25A970A}",
+    "ObjectPath": "StartEngine",
+    "ShortName": "StartEngine",
+    "Path": "Event/StartEngine.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "472314305",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Car\\New Actor-Mixer\\New Blend Container_01\\Engine\\Synth One",
+       "GUID": "{0639A136-8EBC-40A2-83C8-6B798A555571}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "642532550",
+       "Name": "New_Pitch_Shifter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Pitch_Shifter",
+       "GUID": "{C9B80EFA-430D-4C9A-9094-AFBD04B143ED}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "782228278",
+       "Name": "New_Guitar_Distortion_01",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Guitar_Distortion_01",
+       "GUID": "{1E02EC66-C316-45FD-96F7-6ADB8310C2C6}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "1668731267",
+       "Name": "New_Flanger",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Flanger",
+       "GUID": "{3ACF94B0-EFF5-4466-9196-7917346BA24C}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "3160090811",
+       "Name": "New_Compressor",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Compressor",
+       "GUID": "{AA934C56-5F2D-4A8E-ADCA-AC3B094B6F5B}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1087172201",
+      "Name": "StartEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\StartEngine",
+      "GUID": "{A2E0E4E5-EB97-441E-B179-C5BD34B80059}",
+      "MaxAttenuation": "100",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "472314305"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "642532550"
+        },
+        {
+         "Id": "782228278"
+        },
+        {
+         "Id": "1668731267"
+        },
+        {
+         "Id": "3160090811"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2590625526",
+      "Name": "EngineRPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\EngineRPM",
+      "GUID": "{DB950B2B-8714-44EF-98C6-C6973AC7DE2E}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7E1F844C-C370-5745-B528-AFF88EB64C4B}"
+ }
+}

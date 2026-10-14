@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2093547902	StopDrift			\Default Work Unit\Car\StopDrift	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3266676374	TireScreech			\Default Work Unit\TireScreech	
+

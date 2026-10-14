@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1144469081",
+    "Type": "Event",
+    "GUID": "{4572DCF9-8A4A-4941-87AA-41CF0E774814}",
+    "Language": "SFX",
+    "Hash": "{5F0CCAC1-E014-D93E-3B08-6532128E80A9}",
+    "ObjectPath": "HitGround",
+    "ShortName": "HitGround",
+    "Path": "Event/HitGround.bnk",
+    "Media": [
+     {
+      "Id": "777350544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal_impact_ground.wav",
+      "Path": "Media/777350544.wem",
+      "CachePath": "A7/{A7755AAE-6696-F4FF-4B18-AB934E3C3429}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1144469081",
+      "Name": "HitGround",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\HitGround",
+      "GUID": "{4572DCF9-8A4A-4941-87AA-41CF0E774814}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5",
+      "DurationMax": "3.5",
+      "MediaRefs": [
+       {
+        "Id": "777350544"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8250696F-4E20-2172-C34D-F3874A602B78}"
+ }
+}

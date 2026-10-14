@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2093547902",
+    "Type": "Event",
+    "GUID": "{B659EDB4-38C3-4DC3-8CF5-0837C89482C8}",
+    "Language": "SFX",
+    "Hash": "{D6ACD5C4-5333-53C2-2A64-561461A88B12}",
+    "ObjectPath": "StopDrift",
+    "ShortName": "StopDrift",
+    "Path": "Event/StopDrift.bnk",
+    "Media": [
+     {
+      "Id": "915272004",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TireScreech.wav",
+      "Path": "Media/915272004.wem",
+      "CachePath": "E9/{E97459A0-D92C-86AD-0C77-8F19993124B7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2093547902",
+      "Name": "StopDrift",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\StopDrift",
+      "GUID": "{B659EDB4-38C3-4DC3-8CF5-0837C89482C8}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "915272004"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3266676374",
+      "Name": "TireScreech",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TireScreech",
+      "GUID": "{27774F82-F439-41BE-8EFF-0EBC6967014A}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8F593850-125D-B468-C1E0-2D9D7724DC6A}"
+ }
+}

@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1087172201	StartEngine			\Default Work Unit\Car\StartEngine	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2590625526	EngineRPM			\Default Work Unit\EngineRPM	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	1014310111	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	642532550	New_Pitch_Shifter	Wwise Pitch Shifter			
+	782228278	New_Guitar_Distortion_01	Wwise Guitar Distortion			
+	1668731267	New_Flanger	Wwise Flanger			
+	3160090811	New_Compressor	Wwise Compressor			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	472314305	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Car\New Actor-Mixer\New Blend Container_01\Engine\Synth One	
+

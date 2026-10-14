@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3647274460",
+    "Type": "Event",
+    "GUID": "{D98203E7-6962-40EC-87AF-999550C65E64}",
+    "Language": "SFX",
+    "Hash": "{7E2EB162-2297-2FBE-9C14-321128096F07}",
+    "ObjectPath": "Startdrift",
+    "ShortName": "Startdrift",
+    "Path": "Event/Startdrift.bnk",
+    "Media": [
+     {
+      "Id": "915272004",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TireScreech.wav",
+      "Path": "Media/915272004.wem",
+      "CachePath": "E9/{E97459A0-D92C-86AD-0C77-8F19993124B7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3647274460",
+      "Name": "Startdrift",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\Startdrift",
+      "GUID": "{D98203E7-6962-40EC-87AF-999550C65E64}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "915272004"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3266676374",
+      "Name": "TireScreech",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TireScreech",
+      "GUID": "{27774F82-F439-41BE-8EFF-0EBC6967014A}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F2FBB2C4-1048-9DD5-0A72-5C23DC7643D9}"
+ }
+}

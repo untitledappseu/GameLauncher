@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "100447487",
+    "Type": "Event",
+    "GUID": "{56F62C18-4B12-48A0-ACC5-BE1C3BAF8131}",
+    "Language": "SFX",
+    "Hash": "{3AF4534F-F43A-E684-D6A4-98391DC78F88}",
+    "ObjectPath": "PlayFinalBuzzer",
+    "ShortName": "PlayFinalBuzzer",
+    "Path": "Event/PlayFinalBuzzer.bnk",
+    "Media": [
+     {
+      "Id": "583714728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Final buzzer.wav",
+      "Path": "Media/583714728.wem",
+      "CachePath": "90/{9099A45B-B633-28C9-51A4-9C7554D7E67B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "100447487",
+      "Name": "PlayFinalBuzzer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\PlayFinalBuzzer",
+      "GUID": "{56F62C18-4B12-48A0-ACC5-BE1C3BAF8131}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5288436",
+      "DurationMax": "3.5288436",
+      "MediaRefs": [
+       {
+        "Id": "583714728"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{45D69B25-EF97-A0B4-EB8F-BD485094BE49}"
+ }
+}

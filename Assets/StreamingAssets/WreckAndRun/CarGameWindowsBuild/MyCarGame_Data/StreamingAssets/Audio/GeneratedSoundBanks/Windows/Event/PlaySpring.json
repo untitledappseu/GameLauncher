@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2476989436",
+    "Type": "Event",
+    "GUID": "{B171ABE2-DD3A-4C8F-BC52-7591ACF4B65B}",
+    "Language": "SFX",
+    "Hash": "{6CEF3607-FB20-FBA7-A823-245A6ABD3F0E}",
+    "ObjectPath": "PlaySpring",
+    "ShortName": "PlaySpring",
+    "Path": "Event/PlaySpring.bnk",
+    "Media": [
+     {
+      "Id": "133280463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "only_spring.wav",
+      "Path": "Media/133280463.wem",
+      "CachePath": "CC/{CC31562B-A2E8-9F15-81CC-DB66AE94F687}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2476989436",
+      "Name": "PlaySpring",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\PlaySpring",
+      "GUID": "{B171ABE2-DD3A-4C8F-BC52-7591ACF4B65B}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9940079",
+      "DurationMax": "1.3500341",
+      "MediaRefs": [
+       {
+        "Id": "133280463"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{62994A55-0145-3A10-610F-AF659BD37C92}"
+ }
+}

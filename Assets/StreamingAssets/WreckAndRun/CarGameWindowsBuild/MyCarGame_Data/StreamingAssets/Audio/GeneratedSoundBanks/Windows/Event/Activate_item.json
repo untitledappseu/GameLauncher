@@ -1,0 +1,67 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1932880456",
+    "Type": "Event",
+    "GUID": "{B7F75D98-F430-4437-AA3D-5C7CC412EBEE}",
+    "Language": "SFX",
+    "Hash": "{A1904898-BA6C-0AA8-6D06-CA43BE4C78E9}",
+    "ObjectPath": "Activate_item",
+    "ShortName": "Activate_item",
+    "Path": "Event/Activate_item.bnk",
+    "Media": [
+     {
+      "Id": "961324764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Activate_item.wav",
+      "Path": "Media/961324764.wem",
+      "CachePath": "87/{87E4BBA1-FA0D-C408-E6E2-A9C6940A50A9}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "556305844",
+       "Name": "New_RoomVerb_01",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_RoomVerb_01",
+       "GUID": "{15D3FB40-D917-485E-855B-F1A5005553E3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1932880456",
+      "Name": "Activate_item",
+      "ObjectPath": "\\Events\\Default Work Unit\\Car\\Activate_item",
+      "GUID": "{B7F75D98-F430-4437-AA3D-5C7CC412EBEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49227205",
+      "DurationMax": "0.7083467",
+      "MediaRefs": [
+       {
+        "Id": "961324764"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "556305844"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2EB2553B-281B-E205-4D9E-354D46913245}"
+ }
+}

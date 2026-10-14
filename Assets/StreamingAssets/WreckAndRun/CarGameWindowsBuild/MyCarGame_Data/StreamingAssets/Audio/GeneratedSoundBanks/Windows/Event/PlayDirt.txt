@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	744191688	PlayDirt			\Default Work Unit\Car\PlayDirt	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4043708949	OnDirt			\Default Work Unit\OnDirt	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1724990773	New_Time_Stretch	Wwise Time Stretch			
+	3025917178	Standard	Wwise Flanger			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	693074504	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Car\New Actor-Mixer\Tires\Dirt\New Tone Generator\Tone Generator	
+
